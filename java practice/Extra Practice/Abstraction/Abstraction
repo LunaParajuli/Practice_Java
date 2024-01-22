@@ -1,0 +1,41 @@
+
+public abstract class Bank
+{
+      //data members   OR
+      /*members function
+      {
+        logic;
+        -> no implementation can be done.
+        -> From abstract class no object can be made.
+      }
+      */
+
+      String name;
+
+      abstract void readData();
+      abstract void writeData();
+}
+class Admin extends Bank{
+   void readData()
+   {
+
+   }
+   void writeData()
+   {
+
+   }
+   
+}
+class Marketing extends Bank
+{
+    @Override
+    void readData()
+    {
+ 
+    } 
+    @Override 
+    void writeData()
+   {
+
+   }
+}
