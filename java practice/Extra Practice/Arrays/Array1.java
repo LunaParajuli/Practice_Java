@@ -6,7 +6,7 @@ public class Array1{
   public static void main(String args[]){
     //numeric array
    
-    int[] numericArray = {1245,8769,4527,6789,0123,5703,8971,9034,9812,1111};
+    int[] numericArray = {1234,8769,4527,6789,0123,5703,8973,9035,9832,1111};
     System.out.println("The original numeric array: "+Arrays.toString(numericArray));
 
     Arrays.sort(numericArray);
